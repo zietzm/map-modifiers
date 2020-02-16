@@ -1,0 +1,10 @@
+language: python
+python:
+  - "3.6"
+  - "3.7"
+  - "3.8"
+script:
+  - pip install flake8 --quiet
+  - python setup.py build
+  - pip install .
+  - pytest
