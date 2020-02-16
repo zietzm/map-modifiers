@@ -3,11 +3,10 @@ import setuptools
 
 setuptools.setup(
     name="map_modifiers",
-    version="0.1",
+    version="0.2",
     packages=['map_modifiers'],
-
-    package_data={
-        'map_modifiers': ['*.json'],
-    },
-    description="Medical concept normalization with severity modifiers"
+    description="Severity-focused biomedical concept normalization",
+    author='Michael Zietz',
+    author_email='michael.zietz@gmail.com',
+    keywords="concept-normalization clinical-research informatics concept-extraction"
 )
